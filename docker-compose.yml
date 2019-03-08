@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+  sleep5minutes:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: dc-volume
+    restart: unless-stopped

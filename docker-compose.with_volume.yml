@@ -1,0 +1,9 @@
+version: "3.2"
+services:
+  sleep5minutes:
+    volumes:
+      - type: volume
+        source: volume_name
+        target: /volume
+volumes:
+  volume_name:
